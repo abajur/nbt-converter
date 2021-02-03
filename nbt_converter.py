@@ -10,6 +10,11 @@ if len(sys.argv) != 2:
     print(f'usage: {sys.argv[0]} <file>')
     sys.exit(1)
 
+palette = nbtlib.load(sys.argv[1]).root['palette']
+for block in palette:
+    print(block.snbt())
+
+'''
 # 1.16.5
 # {
 #   "Name": "minecraft:white_carpet"
@@ -94,3 +99,4 @@ with nbtlib.load(sys.argv[1]) as f:
     for i in range(len(palette)):
         if str(palette[i]['Name']) in trans.keys():
             palette[i] = trans[str(palette[i]['Name'])]
+'''
