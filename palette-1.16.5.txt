@@ -1,3 +1,5 @@
+# Terracotta
+{Name: "minecraft:terracotta"}
 {Name: "minecraft:white_terracotta"}
 {Name: "minecraft:orange_terracotta"}
 {Name: "minecraft:magenta_terracotta"}
@@ -14,7 +16,7 @@
 {Name: "minecraft:green_terracotta"}
 {Name: "minecraft:red_terracotta"}
 {Name: "minecraft:black_terracotta"}
-{Name: "minecraft:terracotta"}
+# Wool
 {Name: "minecraft:white_wool"}
 {Name: "minecraft:orange_wool"}
 {Name: "minecraft:magenta_wool"}
@@ -31,22 +33,7 @@
 {Name: "minecraft:green_wool"}
 {Name: "minecraft:red_wool"}
 {Name: "minecraft:black_wool"}
-{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:smooth_stone_slab"}
-{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:sandstone_slab"}
-{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:cobblestone_slab"}
-{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:brick_slab"}
-{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:stone_brick_slab"}
-{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:nether_brick_slab"}
-{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:quartz_slab"}
-{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:oak_slab"}
-{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:spruce_slab"}
-{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:birch_slab"}
-{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:jungle_slab"}
-{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:acacia_slab"}
-{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:dark_oak_slab"}
-{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:red_sandstone_slab"}
-{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:purpur_slab"}
-{Name: "minecraft:air"}
+# Carpet
 {Name: "minecraft:white_carpet"}
 {Name: "minecraft:orange_carpet"}
 {Name: "minecraft:magenta_carpet"}
@@ -63,3 +50,20 @@
 {Name: "minecraft:green_carpet"}
 {Name: "minecraft:red_carpet"}
 {Name: "minecraft:black_carpet"}
+# Slabs
+# TODO: test if Minecraft behaves without the `waterlogged` property.
+{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:smooth_stone_slab"}
+{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:sandstone_slab"}
+{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:cobblestone_slab"}
+{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:brick_slab"}
+{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:stone_brick_slab"}
+{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:nether_brick_slab"}
+{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:quartz_slab"}
+{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:oak_slab"}
+{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:spruce_slab"}
+{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:birch_slab"}
+{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:jungle_slab"}
+{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:acacia_slab"}
+{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:dark_oak_slab"}
+{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:red_sandstone_slab"}
+{Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:purpur_slab"}
