@@ -1,0 +1,7 @@
+#!/bin/sh
+
+set -e
+
+cp -f test_original.nbt test.nbt
+python nbt_converter.py test.nbt
+diff test_original.nbt test.nbt
